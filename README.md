@@ -1,4 +1,4 @@
-# url-base64 for Node.js
+![url-base64-node Logo][logo]
 
 Escape/Unescape URL characters within Base64 string.
 
@@ -48,6 +48,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/gJ9IHHt5AT.png
 
 [npm-package-url]: https://npmjs.org/package/url-base64-node
 
