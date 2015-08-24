@@ -1,6 +1,6 @@
 {
   "name": "url-base64-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Escape/Unescape URL characters within Base64 string.",
   "keywords": [
     "escape",
