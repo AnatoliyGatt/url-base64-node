@@ -72,6 +72,9 @@ Distributed under the [MIT License](LICENSE).
 [code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/url-base64-node.svg?style=flat-square
 [code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/url-base64-node
 
+[code-climate-test-coverage-status-badge]: https://img.shields.io/codeclimate/coverage/github/AnatoliyGatt/url-base64-node.svg?style=flat-square
+[code-climate-test-coverage-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/url-base64-node/coverage
+
 [inch-ci-documentation-coverage-status-badge]: https://inch-ci.org/github/AnatoliyGatt/url-base64-node.svg?style=flat-square
 [inch-ci-documentation-coverage-status-page-url]: https://inch-ci.org/github/AnatoliyGatt/url-base64-node
 
