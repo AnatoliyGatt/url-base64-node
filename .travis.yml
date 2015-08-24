@@ -4,3 +4,11 @@ node_js:
   - 0.11
   - 0.10
 sudo: false
+script:
+  - npm run test-ci
+after_script:
+  - codeclimate-test-reporter < ./coverage/lcov.info
+  - rm -rf ./coverage
+addons:
+  code_climate:
+    repo_token: 2de9f68c0902a4f4f23b1679c770ddb3657fd3358d22cd0d34dea0cf9a71c949
