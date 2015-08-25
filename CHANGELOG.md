@@ -17,6 +17,7 @@
 * Add dependencies badge to README.md
 * Add devDependencies badge to README.md
 * Change badges style from flat to flat-square in README.md
+* Update url-base64.js tests
 
 1.0.0 / 2015-08-06
 ==================
