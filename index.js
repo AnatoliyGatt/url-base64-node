@@ -7,7 +7,7 @@
  * @license MIT
  */
 
-"use strict";
+'use strict';
 
 /**
  * @public
@@ -15,4 +15,4 @@
  * @returns {Object} - Unchangeable object with functions to escape/unescape URL characters within Base64 string.
  */
 
-module.exports = require("./lib/url-base64");
+module.exports = require('./lib/url-base64');
