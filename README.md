@@ -23,10 +23,10 @@ Escape/Unescape URL characters within Base64 string.
 ## Usage Example
 
 ```javascript
-var URLBase64 = require("url-base64-node");
+var URLBase64 = require('url-base64-node');
 
-console.log(URLBase64.escape("RXNjYXBlL1VuZXNjYXBlIFVSTCBjaGFyYWN0ZXJzIHdpdGhpbiBCYXNlNjQgc3RyaW5nLg=="));
-console.log(URLBase64.unescape("RXNjYXBlL1VuZXNjYXBlIFVSTCBjaGFyYWN0ZXJzIHdpdGhpbiBCYXNlNjQgc3RyaW5nLg"));
+console.log(URLBase64.escape('RXNjYXBlL1VuZXNjYXBlIFVSTCBjaGFyYWN0ZXJzIHdpdGhpbiBCYXNlNjQgc3RyaW5nLg=='));
+console.log(URLBase64.unescape('RXNjYXBlL1VuZXNjYXBlIFVSTCBjaGFyYWN0ZXJzIHdpdGhpbiBCYXNlNjQgc3RyaW5nLg'));
 ```
 
 ***
