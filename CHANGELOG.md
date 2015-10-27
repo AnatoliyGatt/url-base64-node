@@ -1,3 +1,14 @@
+1.0.3 / 2015-10-27
+==================
+
+* Fix anonymous functions declaration coding style in url-base64.js tests
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update .travis.yml to run tests against node v4.1.0
+* Update dependencies
+
 1.0.2 / 2015-10-02
 ==================
 
