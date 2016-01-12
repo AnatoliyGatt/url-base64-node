@@ -9,7 +9,6 @@
     "characters",
     "encode",
     "decode",
-    "coder",
     "base64",
     "string",
     "node"
