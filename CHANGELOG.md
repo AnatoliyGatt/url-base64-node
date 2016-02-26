@@ -1,3 +1,15 @@
+1.0.4 / 2016-02-26
+==================
+
+* Update dev dependencies
+* Fix invalid publishConfig value in package.json
+* Remove keyword from package.json
+* Add keyword to package.json
+* Update dependencies
+* Update .travis.yml to run tests against node v5.0.0
+* Remove node v4.2.0 from testing environments in .travis.yml
+* Remove node v4.1.0 from testing environments in .travis.yml
+
 1.0.3 / 2015-10-27
 ==================
 
