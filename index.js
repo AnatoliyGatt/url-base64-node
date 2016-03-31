@@ -12,7 +12,7 @@
 /**
  * @public
  * @description Expose object with functions to escape/unescape URL characters within Base64 string.
- * @returns {Object} - object with functions to escape/unescape URL characters within Base64 string.
+ * @returns {Object} - Object with functions to escape/unescape URL characters within Base64 string.
  */
 
 module.exports = require('./lib/url-base64');
