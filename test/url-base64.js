@@ -9,16 +9,6 @@ describe('url-base64', function () {
                 var expectedEscapedBase64String = 'RXNjYXBlL1VuZXNjYXBlIFVSTCBjaGFyYWN0ZXJzIHdpdGhpbiBCYXNlNjQgc3RyaW5nLg';
                 assert.equal(escapedBase64String, expectedEscapedBase64String, 'URL characters should be escaped within Base64 string');
             });
-
-            it('should not be overridden', function () {
-                URLBase64.escape = function () {
-                    return '#escape()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(URLBase64.escape (), '#escape()', '#escape() should not be overridden');
-                }, Error);
-            });
         });
 
         describe('#unescape()', function () {
