@@ -1,3 +1,16 @@
+1.0.5 / 2016-03-31
+==================
+
+* Remove dependencies badge from README.md
+* Remove deep-freeze-node as dependency in package.json
+* Update url-base64.js tests
+* Update index.js documentation comments
+* Update url-base64.js documentation comments
+* Remove require of deep-freeze-node in url-base64.js
+* Expose unfrozen instance of object with functions to escape/unescape URL characters within Base64 string in url-base64.js
+* Update dev dependencies
+* Update dependencies
+
 1.0.4 / 2016-02-26
 ==================
 
