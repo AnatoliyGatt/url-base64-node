@@ -17,16 +17,6 @@ describe('url-base64', function () {
                 var expectedUnescapedBase64String = 'RXNjYXBlL1VuZXNjYXBlIFVSTCBjaGFyYWN0ZXJzIHdpdGhpbiBCYXNlNjQgc3RyaW5nLg==';
                 assert.equal(unescapedBase64String, expectedUnescapedBase64String, 'URL characters should be unescaped within Base64 string');
             });
-
-            it('should not be overridden', function () {
-                URLBase64.unescape = function () {
-                    return '#unescape()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(URLBase64.unescape(), '#unescape()', '#unescape() should not be overridden');
-                }, Error);
-            });
         });
     });
 });
